@@ -280,7 +280,7 @@ if __name__ == '__main__':
 		if key not in ['source']:
 			os.makedirs(val, exist_ok=True)
 
-	seg_params = {'seg_level': -1, 'sthresh': 2, 'mthresh': 7, 'close': 4, 'use_otsu': False,
+	seg_params = {'seg_level': -1, 'sthresh': 2, 'mthresh': 7, 'close': 20, 'use_otsu': False,
 				  'keep_ids': 'none', 'exclude_ids': 'none'}
 	filter_params = {'a_t': 1, 'a_h': 1, 'max_n_holes':8}
 	vis_params = {'vis_level': -1, 'line_thickness': 25}
