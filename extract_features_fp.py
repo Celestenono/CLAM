@@ -6,7 +6,7 @@ from functools import partial
 
 import torch
 import torch.nn as nn
-import timm
+# import timm
 from torch.utils.data import DataLoader
 from PIL import Image
 import h5py
