@@ -5,6 +5,8 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 
 from PIL import Image
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 import h5py
 
 class Whole_Slide_Bag(Dataset):
