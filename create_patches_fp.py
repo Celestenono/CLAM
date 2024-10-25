@@ -250,6 +250,10 @@ parser.add_argument('--process_list',  type = str, default=None,
 if __name__ == '__main__':
 	args = parser.parse_args()
 
+	# args.source = "/Users/nmoreau/Documents/Data/Pancreas/HE/"
+	# args.save_dir = "/Users/nmoreau/Documents/Data/Pancreas/tiles/"
+	# args.seg = True
+
 	patch_save_dir = os.path.join(args.save_dir, 'patches')
 	mask_save_dir = os.path.join(args.save_dir, 'masks')
 	stitch_save_dir = os.path.join(args.save_dir, 'stitches')
@@ -265,11 +269,11 @@ if __name__ == '__main__':
 	print('mask_save_dir: ', mask_save_dir)
 	print('stitch_save_dir: ', stitch_save_dir)
 	
-	directories = {'source': args.source, 
+	directories = {'source': args.source,
 				   'save_dir': args.save_dir,
-				   'patch_save_dir': patch_save_dir, 
-				   'mask_save_dir' : mask_save_dir, 
-				   'stitch_save_dir': stitch_save_dir} 
+				   'patch_save_dir': patch_save_dir,
+				   'mask_save_dir' : mask_save_dir,
+				   'stitch_save_dir': stitch_save_dir}
 
 	for key, val in directories.items():
 		print("{} : {}".format(key, val))
@@ -278,7 +282,7 @@ if __name__ == '__main__':
 
 	seg_params = {'seg_level': -1, 'sthresh': 1, 'mthresh': 7, 'close': 20, 'use_otsu': False,
 				  'keep_ids': 'none', 'exclude_ids': 'none'}
-	filter_params = {'a_t': 200, 'a_h': 16, 'max_n_holes':8}
+	filter_params = {'a_t': 1, 'a_h': 1, 'max_n_holes':8}
 	vis_params = {'vis_level': -1, 'line_thickness': 250}
 	patch_params = {'use_padding': True, 'contour_fn': 'four_pt'}
 
