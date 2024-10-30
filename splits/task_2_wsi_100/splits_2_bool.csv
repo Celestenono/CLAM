@@ -1,0 +1,645 @@
+,train,val,test
+101 15.26180 1.1,True,False,False
+101 15.26180 2.1,True,False,False
+101 15.26180 2.2,True,False,False
+102 15.33190 2.2,True,False,False
+102 15.33190 1.1,True,False,False
+102 15.33190 2.1,True,False,False
+104 15.35338 1.1,True,False,False
+104 15.35338 2.2,True,False,False
+104 15.35338 2.1,True,False,False
+107 16.31191 1.1,True,False,False
+107 16.31191 2.1,True,False,False
+108 15.41146 1.1,True,False,False
+108 15.41146 2.2,True,False,False
+108 15.41146 2.1,True,False,False
+116 H 17.9754 1.1,True,False,False
+116 H 17.9754 2.2,True,False,False
+116 H 17.9754 1.2,True,False,False
+116 H 17.9754 2.1,True,False,False
+118 17.27933 5a1,True,False,False
+118 17.27933 5J3,True,False,False
+122 H 17.15235 N,True,False,False
+122 H 17.15235 T,True,False,False
+127 14.9683 F,True,False,False
+127 14.9683 A,True,False,False
+131 14.13102 G,True,False,False
+134 15.5812 K,True,False,False
+134 15.5812 NS4,True,False,False
+135 16.3496 J,True,False,False
+135 16.3496 A,True,False,False
+138 T1,True,False,False
+138 N1,True,False,False
+144 T1,True,False,False
+144 N1,True,False,False
+146 T3,True,False,False
+146 T1,True,False,False
+146 N1,True,False,False
+146 T2,True,False,False
+146 N2,True,False,False
+147 T2,True,False,False
+147 N2,True,False,False
+147 T1,True,False,False
+147 N1,True,False,False
+148 N1,True,False,False
+148 T1,True,False,False
+152 T3,True,False,False
+152 T2,True,False,False
+152 N1,True,False,False
+152 T1,True,False,False
+152 N2,True,False,False
+158 T1,True,False,False
+158 N1,True,False,False
+159 N1,True,False,False
+159 T5,True,False,False
+159 T1,True,False,False
+159 T4,True,False,False
+159 N2,True,False,False
+159 T3,True,False,False
+159 T2,True,False,False
+161 N1,True,False,False
+161 T5,True,False,False
+161 T2,True,False,False
+161 N5,True,False,False
+161 N2,True,False,False
+161 T3,True,False,False
+161 T4,True,False,False
+161 N3,True,False,False
+161 T1,True,False,False
+161 N6,True,False,False
+161 N7,True,False,False
+161 N4,True,False,False
+165 T1,True,False,False
+165 N1,True,False,False
+167 T5,True,False,False
+167 T2,True,False,False
+167 T3,True,False,False
+167 N1,True,False,False
+167 T1,True,False,False
+167 N3,True,False,False
+167 T4,True,False,False
+167 N2,True,False,False
+171 T1,True,False,False
+171 N1,True,False,False
+171 N2,True,False,False
+171 T2,True,False,False
+172 N1,True,False,False
+172 T1,True,False,False
+173 T1,True,False,False
+173 N1,True,False,False
+173 T2,True,False,False
+178 N1,True,False,False
+178 T1,True,False,False
+179 T1,True,False,False
+179 N1,True,False,False
+180 N1,True,False,False
+180 T1,True,False,False
+180 N2,True,False,False
+180 T2,True,False,False
+181 T1,True,False,False
+181 N1,True,False,False
+184 N1,True,False,False
+184 T2,True,False,False
+184 T1,True,False,False
+185 N1,True,False,False
+185 T1,True,False,False
+187 T1,True,False,False
+187 N1,True,False,False
+198 T1,True,False,False
+198 N1,True,False,False
+200 T1,True,False,False
+200 N1,True,False,False
+203 T1,True,False,False
+203 N1,True,False,False
+206 T1,True,False,False
+206 N1,True,False,False
+212 N1,True,False,False
+212 T1,True,False,False
+224 T1,True,False,False
+224 N1,True,False,False
+225 T1,True,False,False
+225 N1,True,False,False
+228 T1,True,False,False
+228 N1,True,False,False
+22 15.11592 2.2,True,False,False
+22 15.11592 2.1,True,False,False
+22 15.11592 1.1,True,False,False
+22 15.11592 1.2,True,False,False
+230 T2,True,False,False
+230 T1,True,False,False
+236 T1,True,False,False
+238 T1,True,False,False
+238 N1,True,False,False
+241 T1,True,False,False
+244 T1,True,False,False
+244 N1,True,False,False
+248 T2,True,False,False
+248 N1,True,False,False
+24 15.6839 1.1,True,False,False
+24 15.6839 2.1,True,False,False
+251 T2,True,False,False
+251 T1,True,False,False
+253 T1,True,False,False
+253 N1,True,False,False
+257 T1,True,False,False
+257 N1,True,False,False
+261 N1,True,False,False
+261 T1,True,False,False
+266 T1,True,False,False
+266 N1,True,False,False
+274 N1,True,False,False
+274 T1,True,False,False
+280 N1,True,False,False
+281 T1,True,False,False
+281 N1,True,False,False
+284 N1,True,False,False
+287 N1,True,False,False
+287 T1,True,False,False
+288 T1,True,False,False
+288 N1,True,False,False
+290 N1,True,False,False
+290 T1,True,False,False
+2 15.4379 T1,True,False,False
+2 15.4379 T4,True,False,False
+2 15.4379 T2,True,False,False
+2 15.4379 T3,True,False,False
+30 H 16.444 1-15,True,False,False
+30 H 16.444 2.1,True,False,False
+30 H 16.444 2.2,True,False,False
+313 N1,True,False,False
+316 N1,True,False,False
+317 N1,True,False,False
+318 N1,True,False,False
+318 T1,True,False,False
+324 N1,True,False,False
+324 T1,True,False,False
+325 N1,True,False,False
+334 T1,True,False,False
+334 N1,True,False,False
+335 T1,True,False,False
+335 N1,True,False,False
+34 15.15571 1.1,True,False,False
+34 15.15571 1.2,True,False,False
+34 15.15571 2.1,True,False,False
+34 15.15571 2.2,True,False,False
+35 15.16251 2.1,True,False,False
+35 15.16251 2.2,True,False,False
+35 15.16251 1.2,True,False,False
+35 15.16251 1.1,True,False,False
+37 17.2311 1 TM,True,False,False
+37 17.2311 1 normal,True,False,False
+38 17.2365 normal,True,False,False
+38 17.2365 TM,True,False,False
+43 14.12458 Ib1b,True,False,False
+43 14.12458 Ib3,True,False,False
+45 14.13033 b6,True,False,False
+45 14.13033 b4,True,False,False
+48 14.15849 8C,True,False,False
+48 14.15849 norm,True,False,False
+49 15.2000 c1,True,False,False
+49 15.2000 b2,True,False,False
+50 15.2676 TM1,True,False,False
+50 15.2676 TM2,True,False,False
+50 15.2676 normal,True,False,False
+51 15.3445 TM,True,False,False
+51 15.3445 normal,True,False,False
+54 15.5286 c49,True,False,False
+54 15.5286 C66,True,False,False
+54 15.5286 C76,True,False,False
+58 15.13810 T1.2,True,False,False
+58 15.13810 T1.1,True,False,False
+58 15.13810 N2.2,True,False,False
+58 15.13810 N2.1,True,False,False
+59 15.8220 a,True,False,False
+59 15.8220 1 5a,True,False,False
+60 15.8584 ba,True,False,False
+60 15.8584 8C,True,False,False
+61 15.8862 7B,True,False,False
+61 15.8862 normal,True,False,False
+64 15.12238 normal,True,False,False
+64 15.12238 Tumor,True,False,False
+65 15.11578 e1,True,False,False
+65 15.11578 d1,True,False,False
+73 16.474 7C,True,False,False
+73 16.474 5d,True,False,False
+75 16.2709 f11,True,False,False
+75 16.2709 TM,True,False,False
+75 16.2709 normal,True,False,False
+78 16.7399 3d,True,False,False
+78 16.7399 1a,True,False,False
+7 15.3729 1.1,True,False,False
+7 15.3729 1.2,True,False,False
+7 H 15.3729 2.1 T1,True,False,False
+7 H 15.3729 2.2 T2,True,False,False
+7 15.3729 2.2,True,False,False
+7 15.3729 2.1,True,False,False
+84 H 16.5194 1.1,True,False,False
+84 H 16.5194 2.1 PA,True,False,False
+89 H 15.5476 1.1,True,False,False
+89 H 15.5476 2.1,True,False,False
+8 H 16.5165 2.2,True,False,False
+8 H 16.5165 1.1,True,False,False
+8 H 16.5165 2.4,True,False,False
+8 H 16.5165 1.2,True,False,False
+91 H 15.5457 1.2,True,False,False
+91 H 15.5457 1.1,True,False,False
+97 16.13893 1.1,True,False,False
+97 16.13893 2.1,True,False,False
+98 15.25148 1.1,True,False,False
+98 15.25148 2.2,True,False,False
+98 15.25148 2.1,True,False,False
+C 16.10821 2E he_100729,True,False,False
+C 16.10821 2B he_101102,True,False,False
+C 18.13124 2H he_215147,True,False,False
+C 18.13124 2E he_214841,True,False,False
+C 18.13124 2C he_215544,True,False,False
+C 16.15924 2A he_095048,True,False,False
+C 14.16487 4A pas_103855,True,False,False
+C 17.17358 2G he_112637,True,False,False
+C 17.17360 2E he_045047,True,False,False
+C 17.17360 3C he_050600,True,False,False
+C 17.17360 2A he_045849,True,False,False
+C 17.17360 3B he_050214,True,False,False
+C 17.17360 2F he_045426,True,False,False
+C 18.17537 2H he_213456,True,False,False
+C 18.17537 3C he_213835,True,False,False
+C 18.17537 3A he_214105,True,False,False
+C 18.17537 2A he_213141,True,False,False
+C 18.17537 2I he_214527,True,False,False
+C 16.19508 2B he_094020,True,False,False
+C 16.19508 2A he_094432,True,False,False
+C 17.20195 2A he_041300,True,False,False
+C 17.20195 2B he_041650,True,False,False
+C 17.20195 2C he_040509,True,False,False
+C 17.20195 2E he_040917,True,False,False
+C 17.22002 2C he_035726,True,False,False
+C 17.22002 2B he_040117,True,False,False
+C 13.22089 4A he_105839,True,False,False
+C 17.2628 4A he_065112,True,False,False
+C 17.32211 3F he_034105,True,False,False
+C 17.32211 2B he_032431,True,False,False
+C 17.32211 2I he_032953,True,False,False
+C 17.32211 2M he_033431,True,False,False
+C 17.32211 2E he_033805,True,False,False
+C 17.32211 2H he_034352,True,False,False
+C 17.32587 2I he_032106,True,False,False
+C 17.32587 2J he_031653,True,False,False
+C 17.32587 2F he_031348,True,False,False
+C 17.32587 2C he_024858,True,False,False
+C 17.32587 2A he_025601,True,False,False
+C 17.32587 2K he_025245,True,False,False
+C 17.32587 2B he_030634,True,False,False
+C 17.32587 3C he_025926,True,False,False
+C 17.32587 2H he_031002,True,False,False
+C 17.32587 2C pas_030254,True,False,False
+C 16.33050 2G he_090110,True,False,False
+C 17.35942 2A he_021245,True,False,False
+C 17.35942 2F he_020604,True,False,False
+C 17.35942 2B he_020907,True,False,False
+C 16.38030 2E he_082649,True,False,False
+C 16.38030 1J he_082348,True,False,False
+C 16.38030 1H he_083040,True,False,False
+C 16.38030 1I he_082007,True,False,False
+C 16.38030 2D he_083418,True,False,False
+C 16.44640 2C he_075817,True,False,False
+C 16.44640 2B he_080154,True,False,False
+C 16.45680 2C he_070257,True,False,False
+C 17.45812 2D he_001907,True,False,False
+C 17.45812 2A he_001534,True,False,False
+C 17.50389 2D,True,False,False
+C 17.50389 2C,True,False,False
+C 17.50389 2B,True,False,False
+C 17.50389 2E,True,False,False
+C 17.51196 2D he_234255,True,False,False
+C 17.51196 2A he_233117,True,False,False
+C 17.51196 2G he_233951,True,False,False
+C 17.51196 2B he_233455,True,False,False
+C 17.51196 2C he_232757,True,False,False
+C 17.51196 3D he_233659,True,False,False
+C 17.6716 2E he_063624,True,False,False
+C 17.6716 2J he_063312,True,False,False
+C 17.6716 2F he_062945,True,False,False
+C 17.6716 2G he_063928,True,False,False
+C 17.6716 2H he_062545,True,False,False
+C 16.7946 2F he_101451,True,False,False
+C 16.7946 2B he_101806,True,False,False
+C 17.8037 5A he_061238,True,False,False
+C 17.8037 1B he_061008,True,False,False
+C 18.8618 3B he_220740,True,False,False
+C 18.8618 3F,True,False,False
+C 18.8618 3K he_220118,True,False,False
+C 18.8618 2H he_215853,True,False,False
+C 18.8618 2E he_220415,True,False,False
+C 18.8618 3H he_221442,True,False,False
+C 17.9203 2B1 he_054951,True,False,False
+C 17.9203 2E he_054634,True,False,False
+105 17.12464 2.1,True,False,False
+105 17.12464 1.1,True,False,False
+115 28928 8T,True,False,False
+115 28928 8V,True,False,False
+119 17.16488 3,True,False,False
+119 17.16488 2,True,False,False
+119 17.16488 1,True,False,False
+11 15.3990 2.1,True,False,False
+11 15.3990 1.1 H.L. TMA,True,False,False
+11 15.3990 2.2,True,False,False
+11 15.3990 1.2,True,False,False
+125 H 17.2982 2.2,True,False,False
+125 H 17.2982 1.1,True,False,False
+125 H 17.2982 2.1,True,False,False
+125 H 17.2982 1.2,True,False,False
+126 15.7307 J,True,False,False
+133 15.161 G,True,False,False
+133 15.161 A,True,False,False
+142 T1,True,False,False
+142 N1,True,False,False
+142 T2,True,False,False
+142 T4,True,False,False
+142 N3,True,False,False
+142 N2,True,False,False
+142 T3,True,False,False
+143 N1,True,False,False
+143 T2,True,False,False
+143 T1,True,False,False
+143 N2,True,False,False
+149 N2,True,False,False
+149 N1,True,False,False
+149 T1,True,False,False
+149 T2,True,False,False
+150 N1,True,False,False
+150 T1,True,False,False
+154 T3,True,False,False
+154 T2,True,False,False
+154 T1,True,False,False
+154 N1,True,False,False
+154 N2,True,False,False
+164 N1,True,False,False
+164 T3,True,False,False
+164 N2,True,False,False
+164 T1,True,False,False
+164 T2,True,False,False
+164 N3,True,False,False
+175 T2,True,False,False
+175 T1,True,False,False
+175 N1,True,False,False
+175 N2,True,False,False
+175 T3,True,False,False
+176 T1,True,False,False
+176 N1,True,False,False
+18 15.8273 1.2,True,False,False
+18 15.8273 2.1,True,False,False
+18 15.8273 2.2,True,False,False
+18 15.8273 1.1,True,False,False
+190 T1,True,False,False
+190 N1,True,False,False
+192 T1,True,False,False
+193 N1,True,False,False
+193 T3,True,False,False
+193 N2,True,False,False
+193 T1,True,False,False
+193 T2,True,False,False
+196 T1,True,False,False
+196 N1,True,False,False
+209 T2,True,False,False
+209 N1,True,False,False
+209 T1,True,False,False
+209 N2,True,False,False
+210 T1,True,False,False
+210 N2,True,False,False
+215 T1,True,False,False
+215 N1,True,False,False
+221 N1,True,False,False
+221 T1,True,False,False
+222 T1,True,False,False
+222 N1,True,False,False
+227 N1,True,False,False
+227 T1,True,False,False
+234 N1,True,False,False
+234 T1,True,False,False
+23 15.1107 i,True,False,False
+23 15.1107 g,True,False,False
+242 T1,True,False,False
+242 N1,True,False,False
+245 N1,True,False,False
+245 T1,True,False,False
+250 N1,True,False,False
+250 T1,True,False,False
+254 T1,True,False,False
+254 N1,True,False,False
+262 N1,True,False,False
+263 N1,True,False,False
+267 N1,True,False,False
+26 16.7705 TK,True,False,False
+26 16.7705 Tg,True,False,False
+275 T1,True,False,False
+289 N1,True,False,False
+289 T1,True,False,False
+295 N1,True,False,False
+296 T1,True,False,False
+296 N1,True,False,False
+298 N1,True,False,False
+302 T2,True,False,False
+302 T1,True,False,False
+310 T1,True,False,False
+311 T1,True,False,False
+314 N1,True,False,False
+315 T1,True,False,False
+315 N1,True,False,False
+319 A,True,False,False
+320 N1,True,False,False
+320 T1,True,False,False
+322 N1,True,False,False
+327 T1,True,False,False
+327 N1,True,False,False
+32 17.322 f6a,True,False,False
+32 17.322 TM,True,False,False
+41 15.1241 TM,True,False,False
+41 15.1241 norm,True,False,False
+52 15.4166 normal,True,False,False
+52 15.4166 5a,True,False,False
+68 15.9478 3b,True,False,False
+68 15.9478 8,True,False,False
+72 16.6464 49,True,False,False
+72 16.6464 f9,True,False,False
+81 1151 f,True,False,False
+81 1151 e,True,False,False
+81 1151 b,True,False,False
+87 H 15.893 1.1,True,False,False
+87 H 15.893 2.1,True,False,False
+88 H 16.6190 1.1,True,False,False
+88 H 16.6190 2.1,True,False,False
+92 H 15.3793 1.1,True,False,False
+92 H 15.3793 2.1,True,False,False
+95 H 15.3141 1.1,True,False,False
+96 H 15.3068 1.1,True,False,False
+9 16.6833 2.1,True,False,False
+9 16.6833 1.1,True,False,False
+C 16.11091 2B he_100310,True,False,False
+C 16.11238 2D he_095424,True,False,False
+C 16.11238 2E he_095904,True,False,False
+C 17.12297 2B1 he_053936,True,False,False
+C 17.12297 2A2 he_054238,True,False,False
+C 17.12297 2A1 he_053610,True,False,False
+C 16.125 2B he_103547,True,False,False
+C 16.125 2C he_103212,True,False,False
+C 17.13061 3C he_052922,True,False,False
+C 17.13061 3A he_053237,True,False,False
+C 14.13484 8B he_104219,True,False,False
+C 17.14901 2B he_052114,True,False,False
+C 17.14901 2A he_052517,True,False,False
+C 18.18787 3A he_212718,True,False,False
+C 18.18787 2A he_211956,True,False,False
+C 18.18787 2F he_211329,True,False,False
+C 18.18787 2B he_211645,True,False,False
+C 18.18787 2D he_212354,True,False,False
+C 18.18787 2C he_210917,True,False,False
+C 13.20346 4C he_110159,True,False,False
+C 13.22838 7E he_105439,True,False,False
+C 16.33596 4G he_085029,True,False,False
+C 17.36134 2B he_015448,True,False,False
+C 17.36134 2C he_015157,True,False,False
+C 17.36134 2E he_015844,True,False,False
+C 17.36134 2D he_020230,True,False,False
+C 17.38328 3C he_010758,True,False,False
+C 17.38328 2B he_011411,True,False,False
+C 17.38328 3D he_011103,True,False,False
+C 17.38328 2A he_010501,True,False,False
+C 17.38328 2C he_010131,True,False,False
+C 18.44036 2C he_205651,True,False,False
+C 18.44036 2E he_205313,True,False,False
+C 18.44036 2B he_204936,True,False,False
+C 17.6967 2A he_062203,True,False,False
+C 17.6967 3A he_061934,True,False,False
+C 17.6967 2E he_061553,True,False,False
+4 15.5542 1.1,False,True,False
+4 15.5542 1.3,False,True,False
+4 15.5542 1.2,False,True,False
+4 15.5542 2.1,False,True,False
+232 T1,False,True,False
+232 N1,False,True,False
+273 T1,False,True,False
+273 N1,False,True,False
+C 18.4526 2D he_223258,False,True,False
+C 18.4526 2F he_223920,False,True,False
+113 9698 7W,False,True,False
+113 9698 7R,False,True,False
+21 H 15.10971 1.2,False,True,False
+21 H 15.10971 1.1,False,True,False
+21 15.10971 2.1,False,True,False
+21 15.10971 2.2,False,True,False
+213 T1,False,True,False
+213 N1,False,True,False
+293 N1,False,True,False
+293 T1,False,True,False
+191 T1,False,True,False
+191 N1,False,True,False
+223 T1,False,True,False
+C 18.3904 2A he_224556,False,True,False
+C 18.3904 2B he_224256,False,True,False
+218 N1,False,True,False
+218 T1,False,True,False
+218 N2,False,True,False
+218 T2,False,True,False
+C 17.37698 3A he_013720,False,True,False
+C 17.37698 2G he_012119,False,True,False
+C 17.37698 3E he_012914,False,True,False
+C 17.37698 2D he_011739,False,True,False
+C 17.37698 2F he_012520,False,True,False
+C 17.37698 3B he_013246,False,True,False
+C 17.37698 2E he_014044,False,True,False
+103 16.42314 1.1,False,True,False
+103 16.42314 2.1,False,True,False
+307 T1,False,True,False
+160 T3,False,True,False
+160 N1,False,True,False
+160 T2,False,True,False
+160 T1,False,True,False
+33 16.928 1e 4d,False,True,False
+33 16.928 1e 2a,False,True,False
+304 T1,False,True,False
+C 13.25902 5E he_105107,False,True,False
+130 16.4990 L,False,True,False
+130 16.4990 A,False,True,False
+82 17.1547 1.1,False,True,False
+82 17.1547 1.2,False,True,False
+82 17.1547 1.4,False,True,False
+82 17.1547 1.3,False,True,False
+82 17.1547 2.2,False,True,False
+82 17.1547 2.1,False,True,False
+82 17.1547 2.4,False,True,False
+82 17.1547 2.3,False,True,False
+329 N1,False,True,False
+329 T1,False,True,False
+39 15.33 1e 9d,False,True,False
+39 15.33 1e 7b,False,True,False
+204 N1,False,True,False
+204 T1,False,True,False
+100 15.2600 1.1,False,True,False
+100 15.2600 2.1,False,True,False
+100 15.2600 2.2,False,True,False
+C 16.17171 2A he_094746,False,True,False
+283 N1,False,False,True
+283 T1,False,False,True
+270 T1,False,False,True
+270 N1,False,False,True
+83 15.8623 2.1,False,False,True
+83 15.8623 1.3,False,False,True
+83 15.8623 1.4,False,False,True
+83 15.8623 1.5,False,False,True
+83 15.8623 1.1,False,False,True
+83 15.8623 1.2,False,False,True
+83 15.8623 2.2,False,False,True
+C 16.26859 2D he_090846,False,False,True
+111 17.29020 4F2,False,False,True
+111 17.29020 4d2,False,False,True
+199 N1,False,False,True
+199 T1,False,False,True
+247 T1,False,False,True
+247 N1,False,False,True
+182 N1,False,False,True
+182 T1,False,False,True
+328 N1,False,False,True
+328 T1,False,False,True
+62 15.14428 4A,False,False,True
+62 15.14428 normal,False,False,True
+265 T1,False,False,True
+265 N1,False,False,True
+239 T1,False,False,True
+256 N1,False,False,True
+256 T1,False,False,True
+132 14.9816 F,False,False,True
+132 14.9816 M,False,False,True
+C 18.23144 2C he_210452,False,False,True
+C 18.23144 2B he_210104,False,False,True
+C 17.2882 5B he_064727,False,False,True
+C 17.2882 5D he_064324,False,False,True
+207 N1,False,False,True
+207 T1,False,False,True
+42 14.10866 K6,False,False,True
+42 14.10866 m1,False,False,True
+285 N1,False,False,True
+272 T1,False,False,True
+272 N1,False,False,True
+109 15.28188 2.1,False,False,True
+109 15.28188 1.1,False,False,True
+109 15.28188 2.2,False,False,True
+337 N1,False,False,True
+6 15.4595 2.1,False,False,True
+6 15.4595 1.1,False,False,True
+6 15.4595 2.2,False,False,True
+6 15.4595 1.2,False,False,True
+269 N1,False,False,True
+269 T1,False,False,True
+162 N1,False,False,True
+162 N4,False,False,True
+162 N3,False,False,True
+162 T3,False,False,True
+162 N2,False,False,True
+162 T6,False,False,True
+162 T2,False,False,True
+162 T5,False,False,True
+162 T1,False,False,True
+162 T4,False,False,True
+137 N1,False,False,True
+137 T2,False,False,True
+137 T1,False,False,True

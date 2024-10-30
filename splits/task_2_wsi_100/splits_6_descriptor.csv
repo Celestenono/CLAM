@@ -1,0 +1,3 @@
+,train,val,test
+long_survival,328,43,41
+short_survival,188,20,24
