@@ -173,9 +173,6 @@ elif args.task == 'task_2_wsi':
                             label_dict = {'long_survival': 0, 'short_survival': 1},
                             patient_strat= False,
                             ignore=[])
-
-    if args.model_type in ['clam_sb', 'clam_mb']:
-        assert args.subtyping 
         
 else:
     raise NotImplementedError
