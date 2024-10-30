@@ -98,7 +98,7 @@ parser.add_argument('--model_type', type=str, choices=['clam_sb', 'clam_mb', 'mi
 parser.add_argument('--exp_code', type=str, help='experiment code for saving results')
 parser.add_argument('--weighted_sample', action='store_true', default=False, help='enable weighted sampling')
 parser.add_argument('--model_size', type=str, choices=['small', 'big'], default='small', help='size of model, does not affect mil')
-parser.add_argument('--task', type=str, choices=['task_1_tumor_vs_normal',  'task_2_tumor_subtyping'])
+parser.add_argument('--task', type=str, choices=['task_1_tma',  'task_2_wsi'])
 ### CLAM specific options
 parser.add_argument('--no_inst_cluster', action='store_true', default=False,
                      help='disable instance-level clustering')
@@ -152,25 +152,25 @@ if args.model_type in ['clam_sb', 'clam_mb']:
 
 print('\nLoad Dataset')
 
-if args.task == 'task_1_tumor_vs_normal':
+if args.task == 'task_1_tma':
     args.n_classes=2
-    dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/tumor_vs_normal_dummy_clean.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'tumor_vs_normal_resnet_features'),
-                            shuffle = False, 
-                            seed = args.seed, 
+    dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_train.csv',
+                            data_dir= os.path.join(args.data_root_dir, 'features_TMA'),
+                            shuffle = False,
+                            seed = args.seed,
                             print_info = True,
-                            label_dict = {'normal_tissue':0, 'tumor_tissue':1},
+                            label_dict = {'long_survival': 0, 'short_survival': 1},
                             patient_strat=False,
                             ignore=[])
 
-elif args.task == 'task_2_tumor_subtyping':
-    args.n_classes=3
-    dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/tumor_subtyping_dummy_clean.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'tumor_subtyping_resnet_features'),
-                            shuffle = False, 
-                            seed = args.seed, 
+elif args.task == 'task_2_wsi':
+    args.n_classes=2
+    dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_train.csv',
+                            data_dir= os.path.join(args.data_root_dir, 'features_WSI'),
+                            shuffle = False,
+                            seed = args.seed,
                             print_info = True,
-                            label_dict = {'subtype_1':0, 'subtype_2':1, 'subtype_3':2},
+                            label_dict = {'long_survival': 0, 'short_survival': 1},
                             patient_strat= False,
                             ignore=[])
 
