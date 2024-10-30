@@ -1,164 +1,164 @@
-case_id;slide_id;label
-1_20496;1 14.20496 5;long_survival
-1_20496;1 14.20496 1;long_survival
-5_10105;5 H 15.10105 2.1;short_survival
-5_10105;5 H 15.10105 1.2;short_survival
-5_10105;5 H 15.10105 2.2;short_survival
-5_10105;5 H 15.10105 1.1;short_survival
-13_19691;13 14.19691 H3;long_survival
-13_19691;13 14.19691 K1;long_survival
-17_1677;17 15.1677 2.1;short_survival
-17_1677;17 15.1677 1.1;short_survival
-17_1677;17 15.1677 2.2;short_survival
-17_1677;17 15.1677 1.2;short_survival
-31_105;31 17.105 e4;short_survival
-31_105;31 15.105 e6a;short_survival
-36_9357;36 H 16.9357 1.2;long_survival
-36_9357;36 H 16.9357 1.1;long_survival
-36_9357;36 H 16.9357 1.3;long_survival
-36_9357;36 H 16.9357 1.4;long_survival
-36_9357;36 H 16.9357 2.1;long_survival
-40_6037;40 H 16.6037 1.2;short_survival
-40_6037;40 H 16.6037 2.1;short_survival
-40_6037;40 H 16.6037 1.1;short_survival
-47_14827;47 14.14827 3B;long_survival
-56_6152;56 15.6152 TM;long_survival
-56_6152;56 15.6152 normal;long_survival
-57_6155;57 15.6155 Iu2;short_survival
-57_6155;57 15.6155 1a;short_survival
-63_nan;63 H 16.12388 2.2;long_survival
-63_nan;63 H 16.12388 1.2;long_survival
-63_nan;63 H 16.12388 2.1;long_survival
-63_nan;63 H 16.12388 1.1;long_survival
-79_106;79 106 j;long_survival
-79_106;79 106 b;long_survival
-85_7202;85 H 16.7202 1.1;short_survival
-85_7202;85 H 16.7202 2.1;short_survival
-93_1104;93 H 15.1104 2.1;long_survival
-93_1104;93 H 15.1104 1.1;long_survival
-99_12449;99 16.12449 2.1;short_survival
-99_12449;99 16.12449 2.2;short_survival
-99_12449;99 16.12449 1.1;short_survival
-106_6641;106 15.6641 2.2;long_survival
-106_6641;106 15.6641 2.1;long_survival
-106_6641;106 15.6641 1.1;long_survival
-120_2215;120 17.2215 1.1;long_survival
-120_2215;120 17.2215 1.2;long_survival
-120_2215;120 17.2215 2.1;long_survival
-120_2215;120 17.2215 2.2;long_survival
-124_9600;124 2.2;short_survival
-124_9600;124 2.1;short_survival
-124_9600;124 1.1;short_survival
-124_9600;124 1.2;short_survival
-136_431;136 T1;short_survival
-136_431;136 N1;short_survival
-141_18127;141 N1;long_survival
-141_18127;141 T1;long_survival
-145_18306;145 N2;short_survival
-145_18306;145 N1;short_survival
-145_18306;145 T1;short_survival
-151_14237;151 N1;long_survival
-151_14237;151 T3;long_survival
-151_14237;151 N2;long_survival
-151_14237;151 T1;long_survival
-151_14237;151 T2;long_survival
-151_14237;151 T4;long_survival
-156_12781;156 T1;short_survival
-156_12781;156 N1;short_survival
-166_17271;166 T1;long_survival
-166_17271;166 N1;long_survival
-168_15529;168 N1;short_survival
-168_15529;168 T1;short_survival
-168_15529;168 T2;short_survival
-168_15529;168 N2;short_survival
-nan_5542;C 13.5542 6C he_110459;long_survival
-nan_22219;C 12.22219 5J he_111428;short_survival
-nan_22219;C 12.22219 5A he_110940;short_survival
-nan_33482;C 16.33482 3C he_085735;long_survival
-nan_28242;C 16.28242 2G he_090520;short_survival
-nan_27726;C 13.27726 2E he_104638;long_survival
-nan_2359;C 17.2359 6C he_065925;short_survival
-nan_2359;C 17.2359 6B he_065701;short_survival
-nan_2359;C 17.2359 5D he_065444;short_survival
-nan_46241;C 17.46241 3A he_235810;short_survival
-nan_46241;C 17.46241 2A he_235440;short_survival
-nan_46241;C 17.46241 2A pas_001229;short_survival
-nan_46241;C 17.46241 2C he_000255;short_survival
-nan_46241;C 17.46241 2E he_000904;short_survival
-nan_46241;C 17.46241 2B he_000533;short_survival
-nan_400;C 18.400 2C he_232437;long_survival
-nan_400;C 18.400 2D he_231727;long_survival
-nan_400;C 18.400 2A he_232040;long_survival
-nan_40523;C 17.40523 2A he_002838;long_survival
-nan_40523;C 17.40523 2F he_003213;long_survival
-nan_40523;C 17.40523 3F he_003847;long_survival
-nan_40523;C 17.40523 2D he_003527;long_survival
-nan_40523;C 17.40523 2C he_004156;long_survival
-nan_19930;C 17.19930 2A he_042025;short_survival
-nan_19930;C 17.19930 3B he_043437;short_survival
-nan_19930;C 17.19930 2G he_044636;short_survival
-nan_19930;C 17.19930 2I he_043037;short_survival
-nan_19930;C 17.19930 2E he_042410;short_survival
-nan_19930;C 17.19930 2D he_042722;short_survival
-nan_19930;C 17.19930 2F he_044253;short_survival
-nan_19930;C 17.19930 2B he_043849;short_survival
-nan_8254;C 18.8254 2B he_222202;long_survival
-nan_8254;C 18.8254 2E he_222540;long_survival
-nan_8254;C 18.8254 2G he_221814;long_survival
-nan_8254;C 18.8254 2F he_222935;long_survival
-174_4063;174 T4;short_survival
-174_4063;174 T1;short_survival
-174_4063;174 T3;short_survival
-174_4063;174 N3;short_survival
-174_4063;174 T2;short_survival
-174_4063;174 N2;short_survival
-174_4063;174 T5;short_survival
-174_4063;174 N1;short_survival
-177_E5401;177 N1;long_survival
-177_E5401;177 T1;long_survival
-183_15728;183 N1;long_survival
-183_15728;183 T1;long_survival
-188_7854;188 N1;short_survival
-188_7854;188 T1;short_survival
-195_H6818;195 N1;long_survival
-195_H6818;195 T2;long_survival
-195_H6818;195 T1;long_survival
-202_15306;202 T1;short_survival
-202_15306;202 T2;short_survival
-211_SS1513;211 T1;long_survival
-211_SS1513;211 N1;long_survival
-216_15308;216 N1;short_survival
-216_15308;216 T1;short_survival
-226_E510;226 N1;long_survival
-226_E510;226 T1;long_survival
-229_H7196;229 N1;short_survival
-229_H7196;229 T1;short_survival
-229_H7196;229 N2;short_survival
-229_H7196;229 T2;short_survival
-246_E2020;246 T3;long_survival
-246_E2020;246 T2;long_survival
-246_E2020;246 N1;long_survival
-249_E2020;249 N1;short_survival
-249_E2020;249 T1;short_survival
-249_E2020;249 T2;short_survival
-268_12589;268 T1;short_survival
-268_12589;268 N1;short_survival
-271_16457;271 T1;long_survival
-271_16457;271 N1;long_survival
-282_E11948;282 N1;long_survival
-282_E11948;282 T1;long_survival
-292_E20458;292 N1;long_survival
-292_E20458;292 T1;long_survival
-294_E28681;294 T1;short_survival
-294_E28681;294 N1;short_survival
-297_H25129;297 N1;short_survival
-297_H25129;297 T1;short_survival
-309_H11679;309 T1;short_survival
-321_H36046;321 N1;short_survival
-321_H36046;321 T1;short_survival
-323_37242;323 N1;short_survival
-326_H3071;326 N1;long_survival
-326_H3071;326 T1;long_survival
-339_H12190;339 N1;short_survival
-340_H373;340 N1;long_survival
-340_H373;340 T1;long_survival
+case_id,slide_id,label
+1_20496,1 14.20496 5,long_survival
+1_20496,1 14.20496 1,long_survival
+5_10105,5 H 15.10105 2.1,short_survival
+5_10105,5 H 15.10105 1.2,short_survival
+5_10105,5 H 15.10105 2.2,short_survival
+5_10105,5 H 15.10105 1.1,short_survival
+13_19691,13 14.19691 H3,long_survival
+13_19691,13 14.19691 K1,long_survival
+17_1677,17 15.1677 2.1,short_survival
+17_1677,17 15.1677 1.1,short_survival
+17_1677,17 15.1677 2.2,short_survival
+17_1677,17 15.1677 1.2,short_survival
+31_105,31 17.105 e4,short_survival
+31_105,31 15.105 e6a,short_survival
+36_9357,36 H 16.9357 1.2,long_survival
+36_9357,36 H 16.9357 1.1,long_survival
+36_9357,36 H 16.9357 1.3,long_survival
+36_9357,36 H 16.9357 1.4,long_survival
+36_9357,36 H 16.9357 2.1,long_survival
+40_6037,40 H 16.6037 1.2,short_survival
+40_6037,40 H 16.6037 2.1,short_survival
+40_6037,40 H 16.6037 1.1,short_survival
+47_14827,47 14.14827 3B,long_survival
+56_6152,56 15.6152 TM,long_survival
+56_6152,56 15.6152 normal,long_survival
+57_6155,57 15.6155 Iu2,short_survival
+57_6155,57 15.6155 1a,short_survival
+63_nan,63 H 16.12388 2.2,long_survival
+63_nan,63 H 16.12388 1.2,long_survival
+63_nan,63 H 16.12388 2.1,long_survival
+63_nan,63 H 16.12388 1.1,long_survival
+79_106,79 106 j,long_survival
+79_106,79 106 b,long_survival
+85_7202,85 H 16.7202 1.1,short_survival
+85_7202,85 H 16.7202 2.1,short_survival
+93_1104,93 H 15.1104 2.1,long_survival
+93_1104,93 H 15.1104 1.1,long_survival
+99_12449,99 16.12449 2.1,short_survival
+99_12449,99 16.12449 2.2,short_survival
+99_12449,99 16.12449 1.1,short_survival
+106_6641,106 15.6641 2.2,long_survival
+106_6641,106 15.6641 2.1,long_survival
+106_6641,106 15.6641 1.1,long_survival
+120_2215,120 17.2215 1.1,long_survival
+120_2215,120 17.2215 1.2,long_survival
+120_2215,120 17.2215 2.1,long_survival
+120_2215,120 17.2215 2.2,long_survival
+124_9600,124 2.2,short_survival
+124_9600,124 2.1,short_survival
+124_9600,124 1.1,short_survival
+124_9600,124 1.2,short_survival
+136_431,136 T1,short_survival
+136_431,136 N1,short_survival
+141_18127,141 N1,long_survival
+141_18127,141 T1,long_survival
+145_18306,145 N2,short_survival
+145_18306,145 N1,short_survival
+145_18306,145 T1,short_survival
+151_14237,151 N1,long_survival
+151_14237,151 T3,long_survival
+151_14237,151 N2,long_survival
+151_14237,151 T1,long_survival
+151_14237,151 T2,long_survival
+151_14237,151 T4,long_survival
+156_12781,156 T1,short_survival
+156_12781,156 N1,short_survival
+166_17271,166 T1,long_survival
+166_17271,166 N1,long_survival
+168_15529,168 N1,short_survival
+168_15529,168 T1,short_survival
+168_15529,168 T2,short_survival
+168_15529,168 N2,short_survival
+nan_5542,C 13.5542 6C he_110459,long_survival
+nan_22219,C 12.22219 5J he_111428,short_survival
+nan_22219,C 12.22219 5A he_110940,short_survival
+nan_33482,C 16.33482 3C he_085735,long_survival
+nan_28242,C 16.28242 2G he_090520,short_survival
+nan_27726,C 13.27726 2E he_104638,long_survival
+nan_2359,C 17.2359 6C he_065925,short_survival
+nan_2359,C 17.2359 6B he_065701,short_survival
+nan_2359,C 17.2359 5D he_065444,short_survival
+nan_46241,C 17.46241 3A he_235810,short_survival
+nan_46241,C 17.46241 2A he_235440,short_survival
+nan_46241,C 17.46241 2A pas_001229,short_survival
+nan_46241,C 17.46241 2C he_000255,short_survival
+nan_46241,C 17.46241 2E he_000904,short_survival
+nan_46241,C 17.46241 2B he_000533,short_survival
+nan_400,C 18.400 2C he_232437,long_survival
+nan_400,C 18.400 2D he_231727,long_survival
+nan_400,C 18.400 2A he_232040,long_survival
+nan_40523,C 17.40523 2A he_002838,long_survival
+nan_40523,C 17.40523 2F he_003213,long_survival
+nan_40523,C 17.40523 3F he_003847,long_survival
+nan_40523,C 17.40523 2D he_003527,long_survival
+nan_40523,C 17.40523 2C he_004156,long_survival
+nan_19930,C 17.19930 2A he_042025,short_survival
+nan_19930,C 17.19930 3B he_043437,short_survival
+nan_19930,C 17.19930 2G he_044636,short_survival
+nan_19930,C 17.19930 2I he_043037,short_survival
+nan_19930,C 17.19930 2E he_042410,short_survival
+nan_19930,C 17.19930 2D he_042722,short_survival
+nan_19930,C 17.19930 2F he_044253,short_survival
+nan_19930,C 17.19930 2B he_043849,short_survival
+nan_8254,C 18.8254 2B he_222202,long_survival
+nan_8254,C 18.8254 2E he_222540,long_survival
+nan_8254,C 18.8254 2G he_221814,long_survival
+nan_8254,C 18.8254 2F he_222935,long_survival
+174_4063,174 T4,short_survival
+174_4063,174 T1,short_survival
+174_4063,174 T3,short_survival
+174_4063,174 N3,short_survival
+174_4063,174 T2,short_survival
+174_4063,174 N2,short_survival
+174_4063,174 T5,short_survival
+174_4063,174 N1,short_survival
+177_E5401,177 N1,long_survival
+177_E5401,177 T1,long_survival
+183_15728,183 N1,long_survival
+183_15728,183 T1,long_survival
+188_7854,188 N1,short_survival
+188_7854,188 T1,short_survival
+195_H6818,195 N1,long_survival
+195_H6818,195 T2,long_survival
+195_H6818,195 T1,long_survival
+202_15306,202 T1,short_survival
+202_15306,202 T2,short_survival
+211_SS1513,211 T1,long_survival
+211_SS1513,211 N1,long_survival
+216_15308,216 N1,short_survival
+216_15308,216 T1,short_survival
+226_E510,226 N1,long_survival
+226_E510,226 T1,long_survival
+229_H7196,229 N1,short_survival
+229_H7196,229 T1,short_survival
+229_H7196,229 N2,short_survival
+229_H7196,229 T2,short_survival
+246_E2020,246 T3,long_survival
+246_E2020,246 T2,long_survival
+246_E2020,246 N1,long_survival
+249_E2020,249 N1,short_survival
+249_E2020,249 T1,short_survival
+249_E2020,249 T2,short_survival
+268_12589,268 T1,short_survival
+268_12589,268 N1,short_survival
+271_16457,271 T1,long_survival
+271_16457,271 N1,long_survival
+282_E11948,282 N1,long_survival
+282_E11948,282 T1,long_survival
+292_E20458,292 N1,long_survival
+292_E20458,292 T1,long_survival
+294_E28681,294 T1,short_survival
+294_E28681,294 N1,short_survival
+297_H25129,297 N1,short_survival
+297_H25129,297 T1,short_survival
+309_H11679,309 T1,short_survival
+321_H36046,321 N1,short_survival
+321_H36046,321 T1,short_survival
+323_37242,323 N1,short_survival
+326_H3071,326 N1,long_survival
+326_H3071,326 T1,long_survival
+339_H12190,339 N1,short_survival
+340_H373,340 N1,long_survival
+340_H373,340 T1,long_survival
