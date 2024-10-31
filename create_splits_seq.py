@@ -20,9 +20,9 @@ parser.add_argument('--test_frac', type=float, default= 0.1,
 
 args = parser.parse_args()
 
-if args.task == 'task_1_tma':
+if args.task == 'task_1_tma_train':
     args.n_classes=2
-    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_test.csv',
+    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_train.csv',
                             shuffle = False, 
                             seed = args.seed, 
                             print_info = True,
@@ -30,11 +30,31 @@ if args.task == 'task_1_tma':
                             patient_strat=True,
                             ignore=[])
 
-elif args.task == 'task_2_wsi':
+elif args.task == 'task_2_wsi_train':
     args.n_classes=2
-    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_test.csv',
+    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_train.csv',
                             shuffle = False, 
                             seed = args.seed, 
+                            print_info = True,
+                            label_dict = {'long_survival': 0, 'short_survival': 1},
+                            patient_strat= True,
+                            ignore=[])
+
+elif args.task == 'task_3_tma_test':
+    args.n_classes=2
+    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_test.csv',
+                            shuffle = False,
+                            seed = args.seed,
+                            print_info = True,
+                            label_dict = {'long_survival': 0, 'short_survival': 1},
+                            patient_strat=True,
+                            ignore=[])
+
+elif args.task == 'task_4_wsi_test':
+    args.n_classes=2
+    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_test.csv',
+                            shuffle = False,
+                            seed = args.seed,
                             print_info = True,
                             label_dict = {'long_survival': 0, 'short_survival': 1},
                             patient_strat= True,
