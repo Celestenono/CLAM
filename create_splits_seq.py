@@ -12,7 +12,8 @@ parser.add_argument('--seed', type=int, default=1,
                     help='random seed (default: 1)')
 parser.add_argument('--k', type=int, default=10,
                     help='number of splits (default: 10)')
-parser.add_argument('--task', type=str, choices=['task_1_tma', 'task_2_wsi'])
+parser.add_argument('--task', type=str, choices=['task_1_tma_train', 'task_2_wsi_train',
+                                                 'task_3_tma_test', 'task_4_wsi_test'])
 parser.add_argument('--val_frac', type=float, default= 0.1,
                     help='fraction of labels for validation (default: 0.1)')
 parser.add_argument('--test_frac', type=float, default= 0.1,
