@@ -22,7 +22,7 @@ args = parser.parse_args()
 
 if args.task == 'task_1_tma':
     args.n_classes=2
-    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_train.csv',
+    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_test.csv',
                             shuffle = False, 
                             seed = args.seed, 
                             print_info = True,
@@ -32,7 +32,7 @@ if args.task == 'task_1_tma':
 
 elif args.task == 'task_2_wsi':
     args.n_classes=2
-    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_train.csv',
+    dataset = Generic_WSI_Classification_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_test.csv',
                             shuffle = False, 
                             seed = args.seed, 
                             print_info = True,
