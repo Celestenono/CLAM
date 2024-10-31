@@ -39,7 +39,8 @@ parser.add_argument('--fold', type=int, default=-1, help='single fold to evaluat
 parser.add_argument('--micro_average', action='store_true', default=False, 
                     help='use micro_average instead of macro_avearge for multiclass AUC')
 parser.add_argument('--split', type=str, choices=['train', 'val', 'test', 'all'], default='test')
-parser.add_argument('--task', type=str, choices=['task_1_tma',  'task_2_wsi'])
+parser.add_argument('--task', type=str, choices=['task_1_tma_train',  'task_2_wsi_train',
+                                                 'task_3_tma_test',  'task_4_wsi_test'])
 parser.add_argument('--drop_out', type=float, default=0.25, help='dropout')
 parser.add_argument('--embed_dim', type=int, default=1024)
 args = parser.parse_args()
@@ -71,7 +72,26 @@ f.close()
 
 print(settings)
 
-if args.task == 'task_1_tma':
+if args.task == 'task_1_tma_train':
+    args.n_classes=2
+    dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_train.csv',
+                            data_dir= os.path.join(args.data_root_dir, 'features_TMA'),
+                            shuffle = False,
+                            print_info = True,
+                            label_dict = {'long_survival': 0, 'short_survival': 1},
+                            patient_strat=False,
+                            ignore=[])
+
+elif args.task == 'task_2_wsi_train':
+    args.n_classes=2
+    dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_train.csv',
+                            data_dir= os.path.join(args.data_root_dir, 'features_WSI'),
+                            shuffle = False,
+                            print_info = True,
+                            label_dict = {'long_survival': 0, 'short_survival': 1},
+                            patient_strat= False,
+                            ignore=[])
+elif args.task == 'task_3_tma_test':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_test.csv',
                             data_dir= os.path.join(args.data_root_dir, 'features_TMA'),
@@ -81,7 +101,7 @@ if args.task == 'task_1_tma':
                             patient_strat=False,
                             ignore=[])
 
-elif args.task == 'task_2_wsi':
+elif args.task == 'task_4_wsi_test':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_test.csv',
                             data_dir= os.path.join(args.data_root_dir, 'features_WSI'),
