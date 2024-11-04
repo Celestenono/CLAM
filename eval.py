@@ -50,6 +50,8 @@ device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
 args.save_dir = os.path.join(args.results_dir, 'EVAL_' + str(args.save_exp_code))
 args.models_dir = os.path.join(args.results_dir, str(args.models_exp_code))
 
+print(args.models_dir)
+
 os.makedirs(args.save_dir, exist_ok=True)
 
 if args.splits_dir is None:
