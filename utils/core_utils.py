@@ -81,7 +81,7 @@ class SaveBestModel:
     def save_checkpoint(self, auc, model, ckpt_name):
         '''Saves model when validation loss decrease.'''
         if self.verbose:
-            print(f'AUC increased ({self.val_auc_max:.6f} --> {auc:.6f}).  Saving model ...')
+            print(f'AUC increased ({self.auc_max:.6f} --> {auc:.6f}).  Saving model ...')
         torch.save(model.state_dict(), ckpt_name)
         self.auc_max = auc
 
