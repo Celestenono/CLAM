@@ -77,7 +77,7 @@ print(settings)
 if args.task == 'task_1_tma_train':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_train.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'features_TMA'),
+                            data_dir= os.path.join(args.data_root_dir, 'features_TMA_UNI'),
                             shuffle = False,
                             print_info = True,
                             label_dict = {'long_survival': 0, 'short_survival': 1},
@@ -87,7 +87,7 @@ if args.task == 'task_1_tma_train':
 elif args.task == 'task_2_wsi_train':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_train.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'features_WSI'),
+                            data_dir= os.path.join(args.data_root_dir, 'features_WSI_UNI'),
                             shuffle = False,
                             print_info = True,
                             label_dict = {'long_survival': 0, 'short_survival': 1},
@@ -96,7 +96,7 @@ elif args.task == 'task_2_wsi_train':
 elif args.task == 'task_3_tma_test':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_test.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'features_TMA'),
+                            data_dir= os.path.join(args.data_root_dir, 'features_TMA_UNI'),
                             shuffle = False,
                             print_info = True,
                             label_dict = {'long_survival': 0, 'short_survival': 1},
@@ -106,7 +106,7 @@ elif args.task == 'task_3_tma_test':
 elif args.task == 'task_4_wsi_test':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_test.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'features_WSI'),
+                            data_dir= os.path.join(args.data_root_dir, 'features_WSI_UNI'),
                             shuffle = False,
                             print_info = True,
                             label_dict = {'long_survival': 0, 'short_survival': 1},
