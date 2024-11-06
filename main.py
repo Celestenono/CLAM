@@ -155,7 +155,7 @@ print('\nLoad Dataset')
 if args.task == 'task_1_tma_train':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_tma_train.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'features_TMA'),
+                            data_dir= os.path.join(args.data_root_dir, 'features_TMA_UNI'),
                             shuffle = False,
                             seed = args.seed,
                             print_info = True,
@@ -166,7 +166,7 @@ if args.task == 'task_1_tma_train':
 elif args.task == 'task_2_wsi_train':
     args.n_classes=2
     dataset = Generic_MIL_Dataset(csv_path = 'dataset_csv/long_vs_short_survival_wsi_train.csv',
-                            data_dir= os.path.join(args.data_root_dir, 'features_WSI'),
+                            data_dir= os.path.join(args.data_root_dir, 'features_WSI_UNI'),
                             shuffle = False,
                             seed = args.seed,
                             print_info = True,
