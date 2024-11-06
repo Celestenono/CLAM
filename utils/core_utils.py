@@ -46,6 +46,45 @@ class Accuracy_Logger(object):
         
         return acc, correct, count
 
+
+class SaveBestModel:
+    """Early stops the training if validation loss doesn't improve after a given patience."""
+    def __init__(self, verbose=False):
+        """
+        Args:
+            patience (int): How long to wait after last time validation loss improved.
+                            Default: 20
+            stop_epoch (int): Earliest epoch possible for stopping
+            verbose (bool): If True, prints a message for each validation loss improvement.
+                            Default: False
+        """
+        # self.patience = patience
+        # self.stop_epoch = stop_epoch
+        self.verbose = verbose
+        # self.counter = 0
+        self.best_score = None
+        # self.early_stop = False
+        self.auc_max = np.Inf
+
+    def __call__(self, epoch, auc, model, ckpt_name = 'best_checkpoint.pt'):
+
+        score = auc
+
+        if self.best_score is None:
+            self.best_score = score
+            self.save_checkpoint(auc, model, ckpt_name)
+        elif score > self.best_score:
+            self.best_score = score
+            self.save_checkpoint(auc, model, ckpt_name)
+            # self.counter = 0
+
+    def save_checkpoint(self, auc, model, ckpt_name):
+        '''Saves model when validation loss decrease.'''
+        if self.verbose:
+            print(f'AUC increased ({self.val_auc_max:.6f} --> {auc:.6f}).  Saving model ...')
+        torch.save(model.state_dict(), ckpt_name)
+        self.auc_max = auc
+
 class EarlyStopping:
     """Early stops the training if validation loss doesn't improve after a given patience."""
     def __init__(self, patience=20, stop_epoch=50, verbose=False):
@@ -181,15 +220,17 @@ def train(datasets, cur, args):
         early_stopping = None
     print('Done!')
 
+    save_best_model = SaveBestModel(verbose=True)
+
     for epoch in range(args.max_epochs):
         if args.model_type in ['clam_sb', 'clam_mb'] and not args.no_inst_cluster:     
             train_loop_clam(epoch, model, train_loader, optimizer, args.n_classes, args.bag_weight, writer, loss_fn)
-            stop = validate_clam(cur, epoch, model, val_loader, args.n_classes, 
-                early_stopping, writer, loss_fn, args.results_dir)
+            stop = validate_clam(cur, epoch, model, val_loader, args.n_classes, save_best_model,
+                                 early_stopping, writer, loss_fn, args.results_dir)
         
         else:
             train_loop(epoch, model, train_loader, optimizer, args.n_classes, writer, loss_fn)
-            stop = validate(cur, epoch, model, val_loader, args.n_classes, 
+            stop = validate(cur, epoch, model, val_loader, args.n_classes, save_best_model,
                 early_stopping, writer, loss_fn, args.results_dir)
         
         if stop: 
@@ -392,7 +433,7 @@ def validate(cur, epoch, model, loader, n_classes, early_stopping = None, writer
 
     return False
 
-def validate_clam(cur, epoch, model, loader, n_classes, early_stopping = None, writer = None, loss_fn = None, results_dir = None):
+def validate_clam(cur, epoch, model, loader, n_classes, save_best_model = None, early_stopping = None, writer = None, loss_fn = None, results_dir = None):
     model.eval()
     acc_logger = Accuracy_Logger(n_classes=n_classes)
     inst_logger = Accuracy_Logger(n_classes=n_classes)
@@ -479,6 +520,10 @@ def validate_clam(cur, epoch, model, loader, n_classes, early_stopping = None, w
         if early_stopping.early_stop:
             print("Early stopping")
             return True
+
+    if save_best_model:
+        assert results_dir
+        save_best_model(epoch, auc, model, ckpt_name = os.path.join(results_dir, "s_{}_best_checkpoint.pt".format(cur)))
 
     return False
 
