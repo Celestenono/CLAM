@@ -481,9 +481,9 @@ def validate_clam(cur, epoch, model, loader, n_classes, save_best_model = None, 
 
     if n_classes == 2:
         auc = roc_auc_score(labels, prob[:, 1])
-        print(label)
+        print(labels)
         print(hat[:, 1])
-        balanced_acc = balanced_accuracy_score(label, hat[:, 1])
+        balanced_acc = balanced_accuracy_score(labels, hat[:, 1])
         aucs = []
     else:
         aucs = []
