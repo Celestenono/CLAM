@@ -8,6 +8,7 @@ from models.model_clam import CLAM_MB, CLAM_SB
 from sklearn.preprocessing import label_binarize
 from sklearn.metrics import roc_auc_score, roc_curve
 from sklearn.metrics import auc as calc_auc
+from sklearn.metrics import balanced_accuracy_score
 
 device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -445,6 +446,7 @@ def validate_clam(cur, epoch, model, loader, n_classes, save_best_model = None, 
     inst_count=0
     
     prob = np.zeros((len(loader), n_classes))
+    hat = np.zeros((len(loader), n_classes))
     labels = np.zeros(len(loader))
     sample_size = model.k_sample
     with torch.inference_mode():
@@ -468,6 +470,7 @@ def validate_clam(cur, epoch, model, loader, n_classes, save_best_model = None, 
             inst_logger.log_batch(inst_preds, inst_labels)
 
             prob[batch_idx] = Y_prob.cpu().numpy()
+            hat[batch_idx] = Y_hat.cpu().numpy()
             labels[batch_idx] = label.item()
             
             error = calculate_error(Y_hat, label)
@@ -478,6 +481,7 @@ def validate_clam(cur, epoch, model, loader, n_classes, save_best_model = None, 
 
     if n_classes == 2:
         auc = roc_auc_score(labels, prob[:, 1])
+        balanced_acc = balanced_accuracy_score(label, hat[:, 1])
         aucs = []
     else:
         aucs = []
@@ -491,7 +495,7 @@ def validate_clam(cur, epoch, model, loader, n_classes, save_best_model = None, 
 
         auc = np.nanmean(np.array(aucs))
 
-    print('\nVal Set, val_loss: {:.4f}, val_error: {:.4f}, auc: {:.4f}'.format(val_loss, val_error, auc))
+    print('\nVal Set, val_loss: {:.4f}, val_error: {:.4f}, auc: {:.4f}, balanced_acc: {:.4f}'.format(val_loss, val_error, auc, balanced_acc))
     if inst_count > 0:
         val_inst_loss /= inst_count
         for i in range(2):
@@ -523,7 +527,7 @@ def validate_clam(cur, epoch, model, loader, n_classes, save_best_model = None, 
 
     if save_best_model:
         assert results_dir
-        save_best_model(epoch, auc, model, ckpt_name = os.path.join(results_dir, "s_{}_best_checkpoint.pt".format(cur)))
+        save_best_model(epoch, balanced_acc, model, ckpt_name = os.path.join(results_dir, "s_{}_best_checkpoint.pt".format(cur)))
 
     return False
 
